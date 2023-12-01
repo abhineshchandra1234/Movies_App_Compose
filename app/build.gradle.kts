@@ -1,7 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    id ("kotlin-kapt")
+    id("kotlin-kapt")
     id("com.google.dagger.hilt.android")
     id("kotlin-parcelize")
 }
@@ -75,39 +75,39 @@ dependencies {
     val coroutine_android = "1.6.1"
     val coroutine_core = "1.6.4"
     val moshi = "1.13.0"
-    val hilt_version = "2.39.1"
+    val hilt_version = "2.44"
     val retrofit = "2.9.0"
     val lifecycle_version = "2.6.0-alpha01"
 
     //kotlin Coroutines
-    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutine_android")
-    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutine_core")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutine_android")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutine_core")
 
     // ViewModel
-    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
     // LiveData
-    implementation ("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
 
     //retrofit
-    implementation ("com.squareup.retrofit2:retrofit:$retrofit")
+    implementation("com.squareup.retrofit2:retrofit:$retrofit")
     //moshi
-    implementation ("com.squareup.moshi:moshi-kotlin:$moshi")
-    implementation ("com.squareup.retrofit2:converter-moshi:$retrofit")
+    implementation("com.squareup.moshi:moshi-kotlin:$moshi")
+    implementation("com.squareup.retrofit2:converter-moshi:$retrofit")
 
     //dagger hilt
-    implementation ("com.google.dagger:hilt-android:$hilt_version")
-    implementation ("androidx.hilt:hilt-navigation-compose:1.0.0")
-    kapt ("com.google.dagger:hilt-compiler:$hilt_version")
+    implementation("com.google.dagger:hilt-android:$hilt_version")
+    implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
+    kapt("com.google.dagger:hilt-compiler:$hilt_version")
 
     //hilt viewmodel
-    implementation ("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
+    //implementation("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
     //navigation
     implementation("androidx.navigation:navigation-compose:2.5.1")
 
     //ViewModels
-    implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1")
-    implementation ("androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1")
-    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1")
 
     implementation("io.coil-kt:coil-compose:2.1.0")
 }
