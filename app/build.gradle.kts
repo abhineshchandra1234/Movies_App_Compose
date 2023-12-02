@@ -85,11 +85,13 @@ dependencies {
 
     // ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
+
     // LiveData
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
 
     //retrofit
     implementation("com.squareup.retrofit2:retrofit:$retrofit")
+
     //moshi
     implementation("com.squareup.moshi:moshi-kotlin:$moshi")
     implementation("com.squareup.retrofit2:converter-moshi:$retrofit")
@@ -99,8 +101,6 @@ dependencies {
     implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
     kapt("com.google.dagger:hilt-compiler:$hilt_version")
 
-    //hilt viewmodel
-    //implementation("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
     //navigation
     implementation("androidx.navigation:navigation-compose:2.5.1")
 
@@ -109,5 +109,6 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1")
 
+    //coil
     implementation("io.coil-kt:coil-compose:2.1.0")
 }
