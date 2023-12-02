@@ -1,8 +1,14 @@
 # Movies_App_Compose
 - Movies App using TMDB API
+- This app is built using Jetpack Compose, Clean Architecture, MVVM and the latest libraries
 - It will show a list of movies, the user can keep scrolling and more movies are fetched from the internet to be shown
 - clean architecture is used in this project. We have three layers Presentation(UI), Domain(use cases or Business logic), Data
-- The MVVM pattern is also used in this project.
+---
+## Screenshots
+<p align="center">
+<img src = "https://raw.githubusercontent.com/nameisjayant/Find-Movie/master/app/src/main/res/drawable/one.png" height=300px/>
+</p>
+
 ---
 ## Gradle
 - Kotlin dsl is used as a gradle instead of groovy
