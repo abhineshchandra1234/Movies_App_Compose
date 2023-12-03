@@ -6,7 +6,7 @@
 ---
 ## Screenshots
 <p align="center">
-<img src = "https://raw.githubusercontent.com/abhineshchandra1234/Movies_App_Compose/master/app/src/main/res/drawable/news_list.png" height=300px/>
+<img src = "https://raw.githubusercontent.com/abhineshchandra1234/Movies_App_Compose/master/app/src/main/res/drawable/image_resources/news_list.png" height=300px/>
 </p>
 
 ---
