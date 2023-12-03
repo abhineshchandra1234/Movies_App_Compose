@@ -10,6 +10,14 @@
 </p>
 
 ---
+## Architecture
+- This app follows MVVM and clean architecture
+<p align="center">
+<img src = "https://raw.githubusercontent.com/abhineshchandra1234/Movies_App_Compose/master/app/src/main/res/drawable/image_resources/MVVM.png" height=300px/>
+<img src = "https://raw.githubusercontent.com/abhineshchandra1234/Movies_App_Compose/master/app/src/main/res/drawable/image_resources/clean architecture.png" height=300px/>
+</p>
+
+---
 ## Gradle
 - Kotlin dsl is used as a gradle instead of groovy
 - It is compiled against Java JDK 17, Android API level 34
