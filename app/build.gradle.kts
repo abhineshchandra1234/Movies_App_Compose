@@ -107,7 +107,6 @@ dependencies {
     //ViewModels
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1")
     implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1")
 
     //coil
     implementation("io.coil-kt:coil-compose:2.1.0")
