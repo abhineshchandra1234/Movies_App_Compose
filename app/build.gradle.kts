@@ -77,17 +77,19 @@ dependencies {
     val moshi = "1.13.0"
     val hilt_version = "2.44"
     val retrofit = "2.9.0"
-    val lifecycle_version = "2.6.0-alpha01"
+    val lifecycle_version = "2.6.2"
+    val lifecycle_viewmodel_compose_version = "2.6.2"
 
     //kotlin Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutine_android")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutine_core")
 
-    // ViewModel
+    // lifecycle
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
-
-    // LiveData
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycle_version")
+
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:$lifecycle_viewmodel_compose_version")
 
     //retrofit
     implementation("com.squareup.retrofit2:retrofit:$retrofit")
@@ -103,10 +105,6 @@ dependencies {
 
     //navigation
     implementation("androidx.navigation:navigation-compose:2.5.1")
-
-    //ViewModels
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1")
 
     //coil
     implementation("io.coil-kt:coil-compose:2.1.0")
