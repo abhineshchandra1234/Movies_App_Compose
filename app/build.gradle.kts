@@ -92,10 +92,10 @@ dependencies {
 
     //retrofit
     implementation("com.squareup.retrofit2:retrofit:$retrofit")
+    implementation("com.squareup.retrofit2:converter-moshi:$retrofit")
 
     //moshi
     implementation("com.squareup.moshi:moshi-kotlin:$moshi")
-    implementation("com.squareup.retrofit2:converter-moshi:$retrofit")
 
     //dagger hilt
     implementation("com.google.dagger:hilt-android:$hilt_version")
