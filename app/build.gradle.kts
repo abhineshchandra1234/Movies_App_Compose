@@ -72,8 +72,7 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
 
-    val coroutine_android = "1.7.1"
-    val coroutine_core = "1.7.1"
+    val coroutine_version = "1.7.1"
     val moshi = "1.13.0"
     val hilt_version = "2.44"
     val retrofit = "2.9.0"
@@ -81,8 +80,8 @@ dependencies {
     val lifecycle_viewmodel_compose_version = "2.6.2"
 
     //kotlin Coroutines
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutine_android")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutine_core")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutine_version")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutine_version")
 
     // lifecycle
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
