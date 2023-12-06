@@ -73,7 +73,7 @@ dependencies {
 
 
     val coroutine_version = "1.7.1"
-    val moshi = "1.13.0"
+    val moshi = "1.14.0"
     val hilt_version = "2.44"
     val retrofit = "2.9.0"
     val lifecycle_version = "2.6.2"
