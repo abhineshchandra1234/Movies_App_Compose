@@ -104,7 +104,7 @@ dependencies {
     implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
 
     //navigation
-    implementation("androidx.navigation:navigation-compose:2.5.1")
+    implementation("androidx.navigation:navigation-compose:2.7.5")
 
     //coil
     implementation("io.coil-kt:coil-compose:2.1.0")
