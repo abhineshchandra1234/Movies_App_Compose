@@ -72,7 +72,7 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
 
-    val coroutine_version = "1.7.1"
+    val coroutine_version = "1.7.3"
     val moshi = "1.14.0"
     val hilt_version = "2.49"
     val retrofit = "2.9.0"
