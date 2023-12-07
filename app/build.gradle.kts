@@ -74,7 +74,7 @@ dependencies {
 
     val coroutine_version = "1.7.1"
     val moshi = "1.14.0"
-    val hilt_version = "2.44"
+    val hilt_version = "2.49"
     val retrofit = "2.9.0"
     val lifecycle_version = "2.6.2"
     val lifecycle_viewmodel_compose_version = "2.6.2"
@@ -99,8 +99,9 @@ dependencies {
 
     //dagger hilt
     implementation("com.google.dagger:hilt-android:$hilt_version")
-    implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
     kapt("com.google.dagger:hilt-compiler:$hilt_version")
+
+    implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
 
     //navigation
     implementation("androidx.navigation:navigation-compose:2.5.1")
